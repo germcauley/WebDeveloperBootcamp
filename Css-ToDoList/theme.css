@@ -1,0 +1,21 @@
+h1{
+	color:#55ffff;
+}
+
+li{
+	color:red;
+	border: 2px dashed red;
+}
+body{
+	background:url('https://images.unsplash.com/photo-1504972516657-526efa0347c9?auto=format&fit=crop&w=1534&q=80');
+	
+background-size: 100%;
+background-repeat: no-repeat;;
+
+}
+#li3{
+	border:2px solid white;
+}
+.complete{
+	text-decoration: line-through;
+}

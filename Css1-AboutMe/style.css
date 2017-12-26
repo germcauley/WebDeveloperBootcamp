@@ -1,0 +1,19 @@
+h1{
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border:2px dashed rgb(255,100,00);
+}
+
+
+h4{
+	background:rgb(255,100,00);
+}
+
+body{
+	background:url('https://images.unsplash.com/photo-1489769811155-68b5848205ac?auto=format&fit=crop&w=1350&q=80');
+	
+	
+}
+
