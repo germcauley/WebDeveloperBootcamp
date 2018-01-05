@@ -1,0 +1,37 @@
+h1{
+	font-family: Calabri
+}
+
+td{
+height: 100px;
+width: 100px;
+}
+#toplh{
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+#topmid{
+	border-bottom: 2px solid black;
+}
+#toprh{
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+#midlh{
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+#midmid{
+	border-bottom: 2px solid black;
+}
+#midrh{
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+#btmlh{
+	border-right: 2px solid black;
+}
+#btmmid{
+	
+	border-right: 2px solid black;
+}

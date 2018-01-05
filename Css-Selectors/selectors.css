@@ -1,0 +1,43 @@
+/*Element*/
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star*/
+
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+
+li a {
+	color: red;
+}
+
+/*Adjacent Selector*/
+
+h4 + ul {
+	border: 3px solid red;
+}
+
+
+/*Attribute Selector*/
+
+a[href="http://www.facebook.com"] {
+	background: blue;
+}
+
+/*nth of type*/
+
+li:nth-of-type(even){
+	background: purple;
+}

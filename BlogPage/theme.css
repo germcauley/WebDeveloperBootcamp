@@ -1,0 +1,58 @@
+
+/*date color: #3498db;
+h2 color: #2c3e50
+
+font: source sans pro-->*/
+
+#main{
+	border: 10px solid #bdc3c7;
+	margin-right: 12.5%;
+	margin-left: 12.5%;
+
+}
+
+hr{ overflow: visible; /* For IE */ 
+	height: 30px; 
+	border-style: solid; 
+	border-color: black; 
+	border-width: 1px 0 0 0; 
+	border-radius: 20px; } 
+hr:before { /* Not really supposed to work, but does */ 
+	display: block;
+	content: ""; 
+	height: 30px; 
+	margin-top: -31px;
+	border-style: solid; 
+	border-color: black;
+	border-width: 0 0 1px 0;
+	border-radius: 20px; }
+
+.p1{
+	border-left: 5px solid #bdc3c7;
+	}
+h2{
+	color:#2c3e50;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-family:  source sans pro;
+	
+	
+}
+h4{	
+	color:#3498db;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-family: source sans pro;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+}
+p{
+	margin-left: 2%;
+	margin-right: 2%;
+	font-family:  source sans pro;
+}
+hr{
+	margin-top: 20px;
+	margin-right: 5%;
+	margin-left: 5%;
+}

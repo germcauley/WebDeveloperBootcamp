@@ -1,0 +1,17 @@
+p{
+	font-family: 'Libre Barcode 39 Extended Text', cursive;
+	font-size: 35px;
+	margin-left: 1.66%;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	
+	padding-bottom: 15px;
+}
+
+
+
+img{
+	width:30%;
+	float:left;
+	margin: 1.66%;
+}
