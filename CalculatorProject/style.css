@@ -11,5 +11,13 @@
 	width:20%;
 }
 .button-row{
+	margin-top: 5px;
 	margin-bottom: 3px;
+}
+textarea{
+	width: 80%;	
+}
+.display{
+
+	margin-left: 5%;
 }

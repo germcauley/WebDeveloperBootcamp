@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>FreeCodeCampCalculator</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="box col-md-3">DefaultText</div>
+			<div class="box col-md-3">DefaultText</div>			
 			<div class="bigbox col-md-6">DefaultText
+
 				<div class="row">
 					<div class="box col-md-2">lh</div>
 					<div class="bigbox col-md-8">
-						<div class="row button-row">
-							<button class="btn"></button>
-							<button class="btn"></button>
-							<button class="btn"></button>
-							<button class="btn">/</button>								
+						<div class="row">
+							<textarea id="main-display" class="display"></textarea>
 						</div>
 						<div class="row button-row">
-							<button class="btn">7</button>
-							<button class="btn">8</button>
-							<button class="btn">9</button>
-							<button class="btn">*</button>							
+							<button onclick="myFunction(this.innerHTML)" class="btn">Q</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn"></button>
+							<button onclick="myFunction(this.innerHTML)" class="btn"></button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">/</button>								
 						</div>
 						<div class="row button-row">
-							<button class="btn">4</button>
-							<button class="btn">5</button>
-							<button class="btn">6</button>
-							<button class="btn">-</button>							
+							<button onclick="myFunction(this.innerHTML)" class="btn">7</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">8</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">9</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">*</button>							
 						</div>
 						<div class="row button-row">
-							<button class="btn">1</button>
-							<button class="btn">2</button>
-							<button class="btn">3</button>
-							<button class="btn">+</button>							
+							<button onclick="myFunction(this.innerHTML)" class="btn">4</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">5</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">6</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">-</button>							
 						</div>
 						<div class="row button-row">
-							<button class="btn"></button>
-							<button class="btn">0</button>
-							<button class="btn"></button>
-							<button class="btn">=</button>							
+							<button onclick="myFunction(this.innerHTML)" class="btn">1</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">2</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">3</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">+</button>							
+						</div>
+						<div class="row button-row">
+							<button onclick="myFunction(this.innerHTML)" class="btn"></button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">0</button>
+							<button onclick="myFunction(this.innerHTML)" class="btn"></button>
+							<button onclick="myFunction(this.innerHTML)" class="btn">=</button>							
 						</div>
 					</div>
 					<div class="box col-md-2">rh</div>	
