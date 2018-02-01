@@ -11,50 +11,52 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="box col-md-3">DefaultText</div>			
-			<div class="bigbox col-md-6">DefaultText
+			<div class="box col-sm-2"><!--TopDefaultText--></div>			
+			<div class="bigbox col-sm-8">Calculator
 
-				<div class="row">
-					<div class="box col-md-2">lh</div>
-					<div class="bigbox col-md-8">
-						<div class="row">
-							<textarea id="main-display" class="display"></textarea>
+				<div class="row main-area">
+					<div class="box col-sm-1 side"><!--LHDefaultText--></div>	
+						<div class="row calc-bg">					
+							<div class="bigbox col-sm-10 calc-body">
+								<div class="row">
+									<textarea id="main-display" class="display"></textarea>
+								</div>
+								<div class="row button-row">
+									<button onclick="myClearFunction(this.innerHTML)" class="btn">C</button>
+									<button onclick="myFunction(this.innerHTML)" class="btn"></button>
+									<button onclick="myFunction(this.innerHTML)" class="btn"></button>
+									<button onclick="myDivideFunction(this.innerHTML)" class="btn">/</button>					
+								</div>
+								<div class="row button-row">
+									<button onclick="myFunction(this.innerHTML)" class="btn">7</button>
+									<button onclick="myFunction(this.innerHTML)" class="btn">8</button>
+									<button onclick="myFunction(this.innerHTML)" class="btn">9</button>
+									<button onclick="myMultplyFunction(this.innerHTML)" class="btn">*</button>					
+								</div>
+								<div class="row button-row">
+									<button onclick="myFunction(this.innerHTML)" class="btn">4</button>
+									<button onclick="myFunction(this.innerHTML)" class="btn">5</button>
+									<button onclick="myFunction(this.innerHTML)" class="btn">6</button>
+									<button onclick="mySubtractFunction(this.innerHTML)" class="btn">-</button>					
+								</div>
+								<div class="row button-row">
+									<button onclick="myFunction(this.innerHTML)" class="btn">1</button>
+									<button onclick="myFunction(this.innerHTML)" class="btn">2</button>
+									<button onclick="myFunction(this.innerHTML)" class="btn">3</button>
+									<button onclick="myAddFunction(this.innerHTML)" class="btn">+</button>					
+								</div>
+								<div class="row button-row">
+									<button onclick="myFunction(this.innerHTML)" class="btn"></button>
+									<button onclick="myFunction(this.innerHTML)" class="btn">0</button>
+									<button onclick="myFunction(this.innerHTML)" class="btn"></button>
+									<button onclick="myEqualsFunction(this.innerHTML)" class="btn">=</button>							
+								</div>
+							</div>
 						</div>
-						<div class="row button-row">
-							<button onclick="myFunction(this.innerHTML)" class="btn">Q</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn"></button>
-							<button onclick="myFunction(this.innerHTML)" class="btn"></button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">/</button>								
-						</div>
-						<div class="row button-row">
-							<button onclick="myFunction(this.innerHTML)" class="btn">7</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">8</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">9</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">*</button>							
-						</div>
-						<div class="row button-row">
-							<button onclick="myFunction(this.innerHTML)" class="btn">4</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">5</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">6</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">-</button>							
-						</div>
-						<div class="row button-row">
-							<button onclick="myFunction(this.innerHTML)" class="btn">1</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">2</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">3</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">+</button>							
-						</div>
-						<div class="row button-row">
-							<button onclick="myFunction(this.innerHTML)" class="btn"></button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">0</button>
-							<button onclick="myFunction(this.innerHTML)" class="btn"></button>
-							<button onclick="myFunction(this.innerHTML)" class="btn">=</button>							
-						</div>
-					</div>
-					<div class="box col-md-2">rh</div>	
+					<div class="box col-sm-1 side"><!--RHDefaultText--></div>	
 				</div>							
 			</div>
-			<div class="box col-md-3">DefaultText</div>			
+			<div class="box col-sm-2"><!--BtmDefaultText--></div>			
 		</div>
 	</div>
 

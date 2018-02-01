@@ -1,8 +1,9 @@
 .box{
-	background-color:blue;
+	/*background-color:#0A3E82;*/
+
 }
 .bigbox{
-	background-color:red;
+	
 }
 .btn{
 	
@@ -20,4 +21,26 @@ textarea{
 .display{
 
 	margin-left: 5%;
+}
+.side{
+	background-color:#ffffff;
+}
+.calc-body{
+	-webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
+
+border:black solid 3px;
+background-color:#DED5B8;
+}
+.calc-bg{
+	background-color: #ffffff;
+}
+
+#main-display{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.main-area{
+	
 }
