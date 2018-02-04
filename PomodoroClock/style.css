@@ -43,3 +43,13 @@
     vertical-align: middle;
 	display: inline;
 }
+.foot{
+	margin-top: 20px;
+
+	 text-align: center;
+    vertical-align: middle;
+	display: inline;
+}
+.btn-foot{
+	margin-right: 50px;
+}

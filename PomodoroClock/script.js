@@ -60,6 +60,14 @@ function showalert(){
   }
 }
 
+function myReset(){
+  clearInterval(intervalID);
+    secCount = 0;
+    minCount =0;
+    document.getElementById("minDiv").innerHTML=minCount;
+    document.getElementById("secDiv").innerHTML=secCount;
+}
+
 
 
 
