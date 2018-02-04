@@ -1,5 +1,9 @@
+.h1class{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
 .clock-contain-div{
-	background-color: #123456;
 	width:300px;
 	height:300px;
 }
@@ -18,4 +22,24 @@
 }
 .fas{
 	color: black;
+}
+.btn-class{
+	border-radius: 120px;
+	margin-top: 10px;
+}
+.time{
+	font-size: 40px;
+	margin-top: 5px;
+	display: inline;
+	vertical-align: middle;
+	
+}
+.icon{
+	margin-top: 5px;
+	font-size: 3.5em;
+}
+.controls{
+	 text-align: center;
+    vertical-align: middle;
+	display: inline;
 }
