@@ -1,0 +1,11 @@
+#container {
+    background-color: red;
+    height: 512px;
+    width: 512px;
+}
+.unit {
+    background-color: white;
+    margin: 1px;
+    display: inline-block;
+    float: left
+}
