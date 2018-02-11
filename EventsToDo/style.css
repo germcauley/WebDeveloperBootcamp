@@ -1,0 +1,12 @@
+body{
+	font-size: 40px;
+}
+
+.done{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.selected{
+	color:green;
+}
