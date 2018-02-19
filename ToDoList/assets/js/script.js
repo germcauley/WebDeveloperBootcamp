@@ -33,9 +33,14 @@ $("input[type='text']").keypress(function(event) {
 });
 
 
-$(".fas fa-pencil-alt").click(function(){
+$("h1").on("click","#pen",function(){
 	$("input").fadeToggle();
+	// alert('click pencil');
 });
+
+
+
+
 
 
 
