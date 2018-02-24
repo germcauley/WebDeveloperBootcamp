@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circles</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="paper-full.js"></script>
+	<script type="text/javascript" src="howler.core.js"></script>
+
+	<script type="text/paperscript" canvas="myCanvas">
+
+	var keyData ={
+		a: {
+			color: "pink",
+			sound: new Howl({
+      		src: ['sounds/bubbles.mp3', 'sound.mp3']
+    		})
+		},
+		s: {
+			color: "green",
+			sound: new Howl({
+      		src: ['sounds/clay.mp3', 'sound.mp3']
+    		})
+		},
+		d: {
+			color: "blue",
+			sound: new Howl({
+      		src: ['sounds/confetti.mp3', 'sound.mp3']
+    		})
+		},
+		f: {
+			color: "red",
+			sound: new Howl({
+      		src: ['sounds/corona.mp3', 'sound.mp3']
+    		})
+		},
+		g: {
+			color: "orange",
+			sound: new Howl({
+      		src: ['sounds/dotted-spiral.mp3', 'sound.mp3']
+    		})
+		},
+		h: {
+			color: "turquoise",
+			sound: new Howl({
+      		src: ['sounds/flash-1.mp3', 'sound.mp3']
+    		})
+		},
+		j: {
+			color: "yellow",
+			sound: new Howl({
+      		src: ['sounds/flash-2.mp3', 'sound.mp3']
+    		})
+		},
+		k: {
+			color: "purple",
+			sound: new Howl({
+      		src: ['sounds/flash-3.mp3', 'sound.mp3']
+    		})
+		},
+		l: {
+			color: "teal",
+			sound: new Howl({
+      		src: ['sounds/glimmer.mp3', 'sound.mp3']
+    		})
+		}
+
+	}
+
+
+	var circles =[];
+	function onKeyDown(event){
+		if(keyData[event.key]){
+			var maxPoint = new Point(view.size.width, view.size.height);
+			var randomPoint = Point.random();
+			var point = maxPoint * randomPoint;
+			var newCircle = new Path.Circle(point, 100);
+			newCircle.fillColor =keyData[event.key].color;
+			keyData[event.key].sound.play();
+			circles.push(newCircle);
+		}
+						
+	}
+
+	var animatedCircle = new Path.Circle(new Point(300,300), 200);
+	
+
+	function onFrame(event){
+		for(var i =0; i<circles.length; i++){
+			circles[i].fillColor.hue +=1;
+			circles[i].scale(.95);
+		}
+		//animatedCircle.fillColor.hue +=1;
+		//animatedCircle.scale(.9);
+	}	
+		
+	
+	
+	
+	
+	</script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
