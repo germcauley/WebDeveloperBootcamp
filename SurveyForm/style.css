@@ -1,0 +1,58 @@
+body{
+	color: grey;
+	background-color: #99ccff
+}
+h1{
+	font-size: 50px;
+	color:#ffffff;
+	padding:40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container{
+	background-color: #ffffff;
+	margin-bottom: 50px;
+}
+li{
+	list-style: none;
+}
+#description{
+	padding-right:20%;
+	padding-left: 20%;
+	text-align: center
+	max-width:40%;
+}
+
+form{
+	margin:0 auto;
+	text-align: center
+}
+.rate{
+	display: block;
+}
+
+.name-label{
+	display: block;
+	margin-bottom: 20px;
+}
+.email-label{
+	display: block;
+	margin-bottom: 20px;
+}
+.number-label{
+	display: block;
+	margin-bottom: 20px;
+}
+#comments{
+	
+	margin-bottom: 20px;
+}
+#submit{
+	margin-bottom: 50px;
+}
+
+	
+
+
+

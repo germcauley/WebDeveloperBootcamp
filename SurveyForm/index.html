@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><h1 id="title">SurveyForm</h1></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+	<body><h1>Survey Form</h1>
+
+		<div class="container">
+			
+
+			<form id="survey-form">
+				<div class="item">
+					<h3>Description</h3>
+					<p id="description">
+
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+				</div>
+
+				<div class="item">
+					<h3>Input fields</h3>
+						
+								<label class="name-label" for="name">Name field :
+								<input type="text" name="name" placeholder="name">
+								</label>
+							
+
+							
+								<label  class="email-label" for="email">Email field :
+								<input type="email" name="email" placeholder="enter email" required placeholder="Enter a valid email address">
+			  					<!-- //email validaiotn -->
+								</label>
+							
+
+							
+								<label class="number-label" for="number">Number field :
+								<input id="num" type="text" name="number" placeholder="enter phonenumber" required placeholder="Please enter valid phone number"><!-- number validation -->
+								</label>
+						
+				</div>
+
+				<div class="item">
+					<h3>Dropdown</h3>
+
+						<select id="dropdown" class="dropdown">
+							<option disabled="" selected="" value="">Select an Option</option>
+							<option value="option1">Option1</option>
+							<option value="option2">Option2</option>
+							<option value="option3">Option3</option>
+							<option value="option4">Option4</option>
+						</select>
+				</div>
+				
+				<div class="item">
+					<h3>Radio Buttons</h3>
+
+						<label class="rate">Option A
+							<input class="rate1" type="radio" value="1" name="radioA">
+						</label>
+						<label class="rate">Option B
+							<input class="rate1" type="radio" value="2" name="radioA">	
+						</label>
+						<label class="rate">Option C
+							<input class="rate1" type="radio" value="3" name="radioA">
+						</label>
+				</div>
+
+				<div class="item">		
+					<h3>Checkboxes</h3>
+
+						<label>Check1
+							<input class="checkboxes" type="checkbox" name=""  value="1">
+						</label>
+						<label>Check2
+							<input class="checkboxes" type="checkbox" name="" value="2">
+						</label>
+						<label>Check3
+							<input class="checkboxes" type="checkbox" name="" value="3">
+						</label>
+						<label>Check4
+							<input class="checkboxes" type="checkbox" name="" value="4">
+						</label>
+						<label>Check5
+							<input class="checkboxes" type="checkbox" name="" value="5">
+						</label>
+				</div>	
+				<div class="item">
+					<h3>Comment Area</h3>
+					<textarea rows="4" cols="50" id="comments" type="text"  name="comments" placeholder="Any additional comments">Please enter any additional comments here...
+					</textarea>
+				</div>
+						
+						
+				
+				<input id="submit" type="submit" placeholder="Submit" >
+			</form>	
+		</div>
+	</body>
+</html>
