@@ -4,28 +4,25 @@
 	<title>LandingPage</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-	<div class=mainNav>
+	<div class=main-nav>
 		<header>
-			<h4>Title goes here</h4>
+
+			
 		</header>
 
-		<nav>
-			<ul class="nav justify-content-end">
-			  <li class="nav-item">
-			    <a class="nav-link active" href="#">Active</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Link</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Link</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link disabled" href="#">Disabled</a>
-			  </li>
+		<nav >
+			<ul class="nav-ul">
+			  <li class="nav-list"><a href=""><i class="fas fa-play main-icon"></i></a></i></li>
+			  <li class="nav-list"><a href="#home"><h4>Website</h4></a></li>
+			  
+			  <li class="nav-list"><a href="#contact"><h4>Contact</h4></a></li>
+			  <li class="nav-list"><a href="#contact"><h4>Random</h4></a></li>
+			  <li class="nav-list" style="float:right"><a class="active" href="#about"><h4>About</h4></a></li>
 			</ul>
+		
 		</nav>
 		
 
@@ -34,41 +31,61 @@
 	<div class="container">
 
 		<div class="jumbotron">
-			<img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fd2.alternativeto.net%2Fdist%2Fs%2Funsplash-it_596409_full.jpg%3Fformat%3Djpg%26width%3D1600%26height%3D1600%26mode%3Dmin%26upscale%3Dfalse&f=1">
+			<div class="row">
+				<div class="col-sm-4"><i class="fas fa-headphones jumbo-icon"></i>blah blah</div>
+				<div class="col-sm-4"><i class="fas fa-volume-up jumbo-icon"></i>blah blah</div>
+				<div class="col-sm-4"><i class="fas fa-music jumbo-icon"></i>blah blah</div>
+				
+			</div>
+			
+			
 		</div>
 		
-		<div>
-			<p>Enter Email here</p>
-			<input type="email" name=""></input>
-		</div>
+		
 
-		<div class=item>
-			<div class="leftdiv">logo</div><div class="rightdiv">asdasdasdasdasdasdasdsd</div>
-		</div>
-		<div class=item>
-			<div class="leftdiv">logo</div><div class="rightdiv">asdasdasdasdasdasdasdsd</div>
-		</div>
-		<div class=item>
-			<div class="leftdiv">logo</div><div class="rightdiv">asdasdasdasdasdasdasdsd</div>
-		</div>
-
-
-		<div>
+		<div class= "row">
 			
-			Video goes here
+			<div class=" col-sm-4 "></div>
+			<div class=" col-sm-4 vid">
+				<p>Enter Email here</p>
+			<input type="email" name=""></input>
+			</div>
+			<div class=" col-sm-4 "></div>
 		</div>
 
 
-		<div class="parent">
-			<div class="three-columns">column</div>
-			<div class="three-columns">column</div>
-			<div class="three-columns">column</div>
+		<div class= "row">
+			<div class="col-sm-3 leftdiv"><img class = row-img src="placeholderImage.jpg"></div>
+			<div class=" col-sm-9 rightdiv">asdasdasdasdasdasdasdsd</div>
+		</div>
+		
+
+
+		<div class= "row">
+			
+			<div class=" col-sm-4 "></div>
+			<div class=" col-sm-4 vid">Video goes here</div>
+			<div class=" col-sm-4 "></div>
+		</div>
+
+
+		<div class="row ">
+			<div class=" col-md-4 "><img class = col-img src="placeholderImage.jpg"></div>
+			<div class="col-md-4 "><img class = col-img src="placeholderImage.jpg"></div>
+			<div class="col-md-4 "><img class = col-img src="placeholderImage.jpg"></div>
 		</div>
 
 		
 
 	</div>
-	<footer>footer</footer>
+	<footer>footer
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+		</ul>
+
+	</footer>
 
 
 
