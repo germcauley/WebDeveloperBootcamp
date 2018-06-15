@@ -1,0 +1,33 @@
+h4{
+	float:left;
+}
+.item{
+	
+}
+
+.leftdiv{
+	float:left;
+	margin-right: 10px;
+	background-color: #AACEEB;
+}
+.rightdiv{
+	background-color: #EBAAAA;
+}
+.three-columns{
+	min-width: 28%;
+	background: #C4EFAB;
+	float:left;
+	margin-right: 5px;
+	background-color: #AACEEB;
+}
+.parent{
+	display: inline-block;
+}
+
+
+
+footer{
+	min-height: 600px;
+	background-color: #C4EFAB;
+
+}
