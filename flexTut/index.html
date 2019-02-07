@@ -1,0 +1,30 @@
+<!doctype html>
+<title>Example</title>
+<style>
+.container { 
+  display: flex;
+  }
+.red {
+  background: rgb(231, 157, 130);
+  flex-grow: 1;
+}
+.green {
+  background: rgba(176, 184, 162, 0.363);
+}
+.blue {
+  background: rgb(106, 112, 117);
+  width: 40vw;
+}
+.container > div {
+  font-size: 5vw;
+  padding: .5em;
+  color: white;
+}
+</style>
+<div class="container">
+  <div class="red">1</div>
+  <div class="green">2</div>
+  <div class="blue">3
+    <p>Flexbox items can grow and shrink as required to fit their contents.</p>
+  </div>
+</div>
